@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+
+.navbar-nav {
+  width: 60%;
+  margin-left: 10%;
+}
+
+.navbar-nav li {
+  width: 50%;
+}
+
+header {
+  font: aliceblue;
+}
+.nav-link {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link:hover {
+  color: orange !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* FOOTER */
+
+.Footer {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  color: whitesmoke;
+  margin-top: 50px;
+  font-size: 1rem;
+  display: flex;
+}
+
+#contacto input,
+#contacto textarea {
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: orange;
+  padding: 10px;
+  width: 500px;
+  margin-left: 30px;
+}
+
+.pasoApaso {
+  font-family: "Montserrat", sans-serif;
+  color: #ffff;
+  word-spacing: 10 px;
+  line-height: 50px;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-label {
+  margin-left: 30px;
+}
+
+.btn-primary {
+  width: 134px;
+  height: 40px;
+  background-color: #00a6ce;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 40px;
+  border-color: transparent;
+  margin-top: 34px;
+  font-weight: regular;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.getintouch p {
+  font-family: "Dela Gothic One", cursive;
+  margin-left: 30px;
+  color: rgb(194, 61, 61);
+  font-size: 1.2rem;
+  width: 500px;
+}
+
+.PreFooter {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.paso {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#Preferidos {
+  font-family: "Dela Gothic One", cursive;
+  color: rgb(194, 61, 61);
+  width: 90%;
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+
+/* BANNER */
+
+.banner {
+  background-image: url("imagenes/esesta-01.jpg");
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-family: "Dela Gothic One", cursive;
+  color: white;
+  font-size: 80px;
+}
+
+/* MAIN */
+
+.MainDiscos {
+  background-color: #fdefef;
+}
+
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  word-spacing: 4 px;
+  line-height: 20px;
+  font-size: 15px;
+  width: 1000px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+}
+
+.Descripcion {
+  font-family: "Dela Gothic One", cursive;
+  color: rgb(49, 207, 194);;
+  width: 900px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  padding-top: 50px;
+}
+
+.colecciona {
+  font-family: "Dela Gothic One", cursive;
+  margin-left: 30px;
+  color: orange;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.discos {
+  display: grid;
+  /* grid-template-columns: 200px 200px 200px 200px 200px; */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+  grid-gap: 80px;
+  margin-top: 15px;
+}
+
+.discosImg {
+  width: 100%;
+  border-radius: 20%;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.discosImg:hover {
+  border: solid 6px rgb(194, 61, 61);
+  opacity: 4;
+}
+
+.lanzamientos {
+  font-family: "Dela Gothic One", cursive;
+  margin-left: 30px;
+  color: orange;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.DiscosHijos p{
+  font-size: 1rem ;
+  text-align: center ;
+  color: black ;
+  font-family: "Montserrat", sans-serif ;
+  margin-top: 15px;
+}

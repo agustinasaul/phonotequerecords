@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* BANNER  */
+.banner {
+  background-image: url("../imagenes/esesta-01.jpg");
+  background-size: cover;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.banner h1 {
+  font-family: "Dela Gothic One", cursive;
+  color: white;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.banner h2 {
+  font-family: "Dela Gothic One", cursive;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* FOOTER */
+.Footer {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  color: white;
+  margin-top: 50px;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contacto input,
+#contacto textarea {
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: orange;
+  padding: 10px;
+  width: 80%;
+  margin-left: 30px;
+}
+
+.pasoApaso {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  word-spacing: 10 px;
+  line-height: 50px;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-label {
+  margin-left: 30px;
+}
+
+.btn-primary {
+  width: 134px;
+  height: 40px;
+  background-color: #00a6ce;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 40px;
+  border-color: transparent;
+  margin-top: 34px;
+  font-weight: regular;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.getintouch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.getintouch p {
+  font-family: "Dela Gothic One", cursive;
+  margin-left: 30px;
+  color: #c23d3d;
+  font-size: 1.2rem;
+  width: 500px;
+}
+
+.PreFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.paso {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+}
+
+/* NAVBAR */
+.navbar-nav {
+  width: 60%;
+  margin-left: 10%;
+}
+
+.navbar-nav li {
+  width: 50%;
+}
+
+header {
+  font: aliceblue;
+}
+
+.nav-link {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link:hover {
+  color: orange !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* MAIN */
+.discos {
+  width: 200px;
+  margin-bottom: 30px;
+  height: 200px;
+  background-size: contain;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.discos:hover {
+  border: solid 6px orange;
+  opacity: 4;
+}
+
+.explorar {
+  font-family: "Dela Gothic One", cursive;
+  margin-left: 30px;
+  color: orange;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.primero {
+  background-image: url(../imagenes/santi.jpg);
+}
+
+.segundo {
+  background-image: url(../imagenes/villalobos.jpeg);
+}
+
+.tercero {
+  background-image: url(../imagenes/51DiRVekeML.jpeg);
+}
+
+.cuarto {
+  background-image: url(../imagenes/tincho.jpg);
+}
+
+.EdicionesPopulares {
+  background-color: #fdefef;
+  padding: 40px;
+  margin-bottom: 70px;
+}
+
+.EdicionesPopulares p {
+  font-family: "Dela Gothic One", cursive;
+  margin-left: 30px;
+  color: orange;
+  font-size: 1.4rem;
+  margin-bottom: 35px;
+}
+
+.popular {
+  width: 100%;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.daftpunk {
+  background-image: url(../imagenes/daftpunk.jpg);
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+}
+
+.madonna {
+  background-image: url(../imagenes/maddonna.jpeg);
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+}
+
+.depechemode {
+  background-image: url(../imagenes/depechemode.jpeg);
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+}
+
+.daftpunk:hover,
+.madonna:hover,
+.depechemode:hover {
+  border: solid 6px #c23d3d;
+  opacity: 4;
+}
+
+.MasVendidos {
+  font-family: "Dela Gothic One", cursive;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.MasVendidos iframe {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 30rem !important;
+}
+
+.MasVendidos h1 {
+  color: #31cfc2 !important;
+  text-align: center;
+}
+
+#Preferidos {
+  font-family: "Dela Gothic One", cursive;
+  color: #c23d3d;
+  width: 90%;
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+
+.Comentario {
+  height: 50px;
+  width: 500px;
+}
+
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  word-spacing: 4 px;
+  line-height: 20px;
+  font-size: 0.8rem;
+  margin-bottom: 60px;
+  margin-left: 20px;
+}
+
+.Porque {
+  font-family: "Dela Gothic One", cursive;
+  color: #c23d3d;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.AchicarCarrusel {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.5rem;
+}
+
+.USA {
+  color: #31cfc2 !important;
+  text-align: center;
+  font-family: "Dela Gothic One", cursive;
+}
+
+.discosHola {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.MejorVinilos {
+  width: 60%;
+}
+/*# sourceMappingURL=estilo.css.map */
