@@ -1,5 +1,6 @@
 @import "colores";
 @import "tipografia";
+@import "house";
 
 @mixin bodydefault {
      background-color: black;
@@ -37,7 +38,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
 
     h1 {
         @include bannerdefault;
