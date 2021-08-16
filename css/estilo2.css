@@ -12,18 +12,19 @@
   line-height: 20px;
   font-size: 15px;
   margin-bottom: 60px;
-  margin-left: 20px;
+  margin-left: 40px;
   width: 60%; }
 
 .DescripcionHouse {
   font-family: "Dela Gothic One", cursive;
   color: #31cfc2;
   width: 60%;
-  margin-left: 20px;
+  margin-left: 40px;
   font-size: 1.5rem;
   padding-top: 50px; }
 
-.ColeccionaHouse, .LanzamientosHouse {
+.ColeccionaHouse,
+.LanzamientosHouse {
   font-family: "Dela Gothic One", cursive;
   width: 95%;
   margin: 0 auto;
@@ -55,7 +56,56 @@
     text-align: center;
     color: black;
     font-family: "Montserrat", sans-serif;
-    margin-top: 15px; }
+    margin-top: 15px;
+    font-weight: bold; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.housebanner {
+  background-image: url(../portadahouse-01.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .housebanner h1 {
+    font-family: "Dela Gothic One", cursive;
+    font-size: 3.2rem; }
+
+.technobanner {
+  background-image: url(../technobanner-01.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .technobanner h1 {
+    font-family: "Dela Gothic One", cursive;
+    font-size: 3.2rem; }
+
+.electrobanner {
+  background-image: url(../imagenes/drum-01.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .electrobanner h1 {
+    font-family: "Dela Gothic One", cursive;
+    font-size: 3.2rem; }
+
+.minimalbanner {
+  background-image: url(../portadaminimal.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .minimalbanner h1 {
+    font-family: "Dela Gothic One", cursive;
+    font-size: 3.2rem; }
 
 * {
   margin: 0;
@@ -64,7 +114,8 @@
 body {
   background-color: black;
   color: white;
-  font-family: Georgia, "Times New Roman", Times, serif; }
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: black; }
 
 /* BANNER  */
 .banner {
@@ -179,6 +230,13 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
+  .discos p {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 15px;
+    font-weight: bold; }
   .discos:hover {
     border: solid 6px orange;
     opacity: 4; }
@@ -253,17 +311,19 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 45rem;
   font-size: 2rem; }
   .MasVendidos iframe {
+    margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 30rem !important; }
+    width: 50%;
+    height: 40rem; }
   .MasVendidos h1 {
-    color: #31cfc2 !important;
+    color: #31cfc2;
     text-align: center; }
 
 #Preferidos {
@@ -314,4 +374,11 @@ header {
   margin-bottom: 20px; }
 
 .MejorVinilos {
-  width: 60%; }
+  width: 60%;
+  align-content: center; }
+
+.AgustinaSaul {
+  text-align: center;
+  margin-top: 70px;
+  background-color: orange;
+  font-family: "Montserrat", sans-serif; }

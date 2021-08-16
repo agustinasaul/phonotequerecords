@@ -1,330 +1,342 @@
 @import "colores";
 @import "tipografia";
 @import "house";
-@import "mediaqueries";
+@import "portada";
 
 @mixin bodydefault {
-     background-color: black;
-    color: rgb(255, 255, 255);
-    font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 @mixin bannerdefault {
-      font-family: $fonttitulos;
-      color: $letrablanca;
-      text-align: center;
+  font-family: $fonttitulos;
+  color: $letrablanca;
+  text-align: center;
 }
 
 @mixin edicionespopulares {
-    background-size: contain;
-    width: 200px;
-    height: 200px;
-    border-radius: 20%;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    @include bodydefault;
-  }
-  
-  /* BANNER  */
-  .banner {
-    background-image: url("../imagenes/esesta-01.jpg");
-    background-size: cover;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+}
 
-    h1 {
-        @include bannerdefault;
-        font-size: 3.2rem;
-      }
-    h2 {
-        @include bannerdefault;
-        font-size: 3rem;
-      }
-  }
-  
-  
-  /* FOOTER */
-  
-  .Footer {
-    font-family: $fonttextos;
-    margin-left: 20px;
-    color: $letrablanca;
-    margin-top: 50px;
-    font-size: 1rem;
-    display: flex;
-  }
-  
-  #contacto input,
-  #contacto textarea {
-    background-color: transparent;
-    border-radius: 10px;
-    border-color: $letranaranja;
-    padding: 10px;
-    width: 80%;
-    margin-left: 30px;
-  }
-  
-  .pasoApaso {
-    font-family: $fonttextos;
-    color: $letrablanca;
-    word-spacing: 10 px;
-    line-height: 50px;
-    font-size: 15px;
-    margin-bottom: 60px;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  .form-label {
-    margin-left: 30px;
-  }
-  
-  .btn-primary {
-    width: 134px;
-    height: 40px;
-    background-color: #00a6ce;
-    font-family: $fonttextos;
-    border-radius: 40px;
-    border-color: transparent;
-    margin-top: 34px;
-    font-weight: regular;
-    margin-left: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .getintouch {
-    display: flex;
+body {
+  @include bodydefault;
+  background-color: black;
+}
 
-    p {
-        font-family: $fonttitulos;
-        margin-left: 30px;
-        color: $letraroja;
-        font-size: 1.2rem;
-        width: 500px;
-      }
-  }
-  
-  
-  .PreFooter {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-  }
-  
-  .paso {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-  }
-  
-  /* NAVBAR */
-  
-  .navbar-nav {
-    width: 60%;
-    margin-left: 10%;
+/* BANNER  */
+.banner {
+  background-image: url("../imagenes/esesta-01.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    li {
+  h1 {
+    @include bannerdefault;
+    font-size: 3.2rem;
+  }
+  h2 {
+    @include bannerdefault;
+    font-size: 3rem;
+  }
+}
+
+/* FOOTER */
+
+.Footer {
+  font-family: $fonttextos;
+  margin-left: 20px;
+  color: $letrablanca;
+  margin-top: 50px;
+  font-size: 1rem;
+  display: flex;
+}
+
+#contacto input,
+#contacto textarea {
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: $letranaranja;
+  padding: 10px;
+  width: 80%;
+  margin-left: 30px;
+}
+
+.pasoApaso {
+  font-family: $fonttextos;
+  color: $letrablanca;
+  word-spacing: 10 px;
+  line-height: 50px;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-label {
+  margin-left: 30px;
+}
+
+.btn-primary {
+  width: 134px;
+  height: 40px;
+  background-color: #00a6ce;
+  font-family: $fonttextos;
+  border-radius: 40px;
+  border-color: transparent;
+  margin-top: 34px;
+  font-weight: regular;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.getintouch {
+  display: flex;
+
+  p {
+    font-family: $fonttitulos;
+    margin-left: 30px;
+    color: $letraroja;
+    font-size: 1.2rem;
+    width: 500px;
+  }
+}
+
+.PreFooter {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.paso {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+/* NAVBAR */
+
+.navbar-nav {
+  width: 60%;
+  margin-left: 10%;
+
+  li {
     width: 50%;
   }
-  }
-  
-  
+}
+
 header {
-    font: $fonttextos;
-  }
+  font: $fonttextos;
+}
 
 .nav-link {
-    color: $letrablanca !important;
-    font-family: $fonttextos;
+  color: $letrablanca !important;
+  font-family: $fonttextos;
 
-    &:hover {
+  &:hover {
     color: $letranaranja !important;
   }
-  }
-  
-  
+}
+
 .navbar-brand {
-    color: $letrablanca !important;
-    font-family: $fonttextos;
-  }
-  
-  /* MAIN */
-  
+  color: $letrablanca !important;
+  font-family: $fonttextos;
+}
+
+/* MAIN */
+
 .discos {
-    width: 200px;
-    margin-bottom: 30px;
-    height: 200px;
-    background-size: contain;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
- &:hover {
+  width: 200px;
+  margin-bottom: 30px;
+  height: 200px;
+  background-size: contain;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  p {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    font-family: $fonttextos;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  &:hover {
     border: solid 6px $letranaranja;
     opacity: 4;
   }
 }
 
-  
 .explorar {
-    font-family: $fonttitulos;
-    margin-left: 30px;
-    color: $letranaranja;
-    font-size: 1.5rem;
-    margin-bottom: 50px;
-  }
-  
-.primero {
-    background-image: url(../imagenes/santi.jpg);
-  }
-  
-.segundo {
-    background-image: url(../imagenes/villalobos.jpeg);
-  }
-  
-.tercero {
-    background-image: url(../imagenes/51DiRVekeML.jpeg);
-  }
-  
-.cuarto {
-    background-image: url(../imagenes/tincho.jpg);
-  }
-  
-.EdicionesPopulares {
-    background-color: $bcrosadito;
-    padding: 40px;
-    margin-bottom: 70px;
+  font-family: $fonttitulos;
+  margin-left: 30px;
+  color: $letranaranja;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
 
-    p{
+.primero {
+  background-image: url(../imagenes/santi.jpg);
+}
+
+.segundo {
+  background-image: url(../imagenes/villalobos.jpeg);
+}
+
+.tercero {
+  background-image: url(../imagenes/51DiRVekeML.jpeg);
+}
+
+.cuarto {
+  background-image: url(../imagenes/tincho.jpg);
+}
+
+.EdicionesPopulares {
+  background-color: $bcrosadito;
+  padding: 40px;
+  margin-bottom: 70px;
+
+  p {
     font-family: $fonttitulos;
     margin-left: 30px;
     color: $letranaranja;
     font-size: 1.4rem;
     margin-bottom: 35px;
   }
-  }
+}
 
-  
 .popular {
-    width: 100%;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-around;
-  }
-  
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .daftpunk {
-    background-image: url(../imagenes/daftpunk.jpg);
-    @include edicionespopulares
-  }
-  
+  background-image: url(../imagenes/daftpunk.jpg);
+  @include edicionespopulares;
+}
+
 .madonna {
-    background-image: url(../imagenes/maddonna.jpeg);
-   @include edicionespopulares
-  }
-  
+  background-image: url(../imagenes/maddonna.jpeg);
+  @include edicionespopulares;
+}
+
 .depechemode {
-    background-image: url(../imagenes/depechemode.jpeg);
-   @include edicionespopulares
-  }
-  
+  background-image: url(../imagenes/depechemode.jpeg);
+  @include edicionespopulares;
+}
+
 .daftpunk:hover,
 .madonna:hover,
 .depechemode:hover {
-    border: solid 6px $letraroja;
-    opacity: 4;
-  }
-  
+  border: solid 6px $letraroja;
+  opacity: 4;
+}
+
 .MasVendidos {
-    font-family: $fonttitulos;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  font-family: $fonttitulos;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 45rem;
+  font-size: 2rem;
+
+  iframe {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    font-size: 2rem;
+    width: 50%;
+    height: 40rem;
+  }
+  h1 {
+    color: $letraturquesa;
+    text-align: center;
+  }
+}
 
-    iframe {
-        margin-top: 50px;
-        margin-bottom: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-      height:30rem !important;
-      }
-      h1 {
-        color: $letraturquesa !important;
-        text-align: center;
-      }
-  }
-  
-   
 #Preferidos {
-    font-family: $fonttitulos;
-    color: $letraroja;
-    width: 90%;
-    margin-left: 20px;
-    font-size: 1.2rem;
-  }
+  font-family: $fonttitulos;
+  color: $letraroja;
+  width: 90%;
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
 
 .Comentario {
-    height: 50px;
-    width: 500px;
-  }
-  
+  height: 50px;
+  width: 500px;
+}
+
 .parrafo {
-    font-family: $fonttextos;
-    color: $letrablanca;
-    word-spacing: 4 px;
-    line-height: 20px;
-    font-size: 0.8rem;
-    margin-bottom: 60px;
-    margin-left: 20px;
-  }
-  
+  font-family: $fonttextos;
+  color: $letrablanca;
+  word-spacing: 4 px;
+  line-height: 20px;
+  font-size: 0.8rem;
+  margin-bottom: 60px;
+  margin-left: 20px;
+}
+
 .Porque {
-    font-family: $fonttitulos;
-    color: $letraroja;
-    margin-left: 20px;
-    font-size: 1.5rem;
-    margin-top: 30px;
-  }
-  
+  font-family: $fonttitulos;
+  color: $letraroja;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
 .AchicarCarrusel {
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 40px;
-    margin-top: 30px;
-    font-family: $fonttextos !important;
-    font-size: 1.5rem;
-  }
-  
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-family: $fonttextos !important;
+  font-size: 1.5rem;
+}
+
 .USA {
-    color: $letraturquesa !important;
-    text-align: center;
-    font-family: $fonttitulos;
-  }
-  
+  color: $letraturquesa !important;
+  text-align: center;
+  font-family: $fonttitulos;
+}
+
 .discosHola {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
-  
-.MejorVinilos{
-  width:60%;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.MejorVinilos {
+  width: 60%;
+  align-content: center;
+}
+
+.AgustinaSaul {
+  text-align: center;
+  margin-top: 70px;
+  background-color: orange;
+  font-family: $fonttextos;
+}

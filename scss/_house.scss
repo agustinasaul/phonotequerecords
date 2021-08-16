@@ -1,74 +1,71 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .SeccionDiscos {
-    background-color: $bcrosadito;
-  }
-  
-  .ParrafoHouse {
-    font-family: $fonttextos;
-    color: black;
-    word-spacing: 4 px;
-    line-height: 20px;
-    font-size: 15px;
-    margin-bottom: 60px;
-    margin-left: 20px;
-    width:60%;
-  }
-  
-  .DescripcionHouse {
-    font-family: $fonttitulos;
-    color: rgb(49, 207, 194);;
-    width:60%;
-    margin-left: 20px;
-    font-size: 1.5rem;
-    padding-top: 50px;
-  }
-  
-  .ColeccionaHouse, .LanzamientosHouse {
-    font-family: $fonttitulos;
-    width: 95%;
-    margin: 0 auto;
-    color: orange;
-    font-size: 1.5rem;
-    padding-bottom: 2rem;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
 
-   .DiscosHouse {
+.SeccionDiscos {
+  background-color: $bcrosadito;
+}
+
+.ParrafoHouse {
+  font-family: $fonttextos;
+  color: black;
+  word-spacing: 4 px;
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 60px;
+  margin-left: 40px;
+  width: 60%;
+}
+
+.DescripcionHouse {
+  font-family: $fonttitulos;
+  color: rgb(49, 207, 194);
+  width: 60%;
+  margin-left: 40px;
+  font-size: 1.5rem;
+  padding-top: 50px;
+}
+
+.ColeccionaHouse,
+.LanzamientosHouse {
+  font-family: $fonttitulos;
+  width: 95%;
+  margin: 0 auto;
+  color: orange;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.DiscosHouse {
   display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-bottom: 4rem;
-  }
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 4rem;
+}
 
-
-  
-  .DiscosHouseImg {
-    width: 100%;
-    border-radius: 20%;
-    box-shadow: 10px 10px 5px grey;
-   &:hover {
+.DiscosHouseImg {
+  width: 100%;
+  border-radius: 20%;
+  box-shadow: 10px 10px 5px grey;
+  &:hover {
     border: solid 6px $letraroja;
     opacity: 4;
   }
-  }
-  
+}
 
 .DiscosssHijos {
   width: 200px;
   margin: 20px;
 
-  p{
-    font-size: 1rem ;
+  p {
+    font-size: 1rem;
     text-align: center;
-    color: black ;
+    color: black;
     font-family: $fonttextos;
     margin-top: 15px;
+    font-weight: bold;
   }
-}  
-
+}

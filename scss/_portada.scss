@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.housebanner {
+  background-image: url(../portadahouse-01.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: $fonttitulos;
+    font-size: 3.2rem;
+  }
+}
+
+.technobanner {
+  background-image: url(../technobanner-01.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: $fonttitulos;
+    font-size: 3.2rem;
+  }
+}
+
+.electrobanner {
+  background-image: url(../imagenes/drum-01.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: $fonttitulos;
+    font-size: 3.2rem;
+  }
+}
+
+.minimalbanner {
+  background-image: url(../portadaminimal.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: $fonttitulos;
+    font-size: 3.2rem;
+  }
+}
