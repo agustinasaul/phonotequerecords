@@ -107,6 +107,13 @@
     font-family: "Dela Gothic One", cursive;
     font-size: 3.2rem; }
 
+@media only screen and (max-width: 600px) {
+  .paso {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 30px; } }
+
 * {
   margin: 0;
   padding: 0; }
@@ -193,11 +200,6 @@ label {
   display: flex;
   width: 100%;
   justify-content: space-around; }
-
-.paso {
-  display: flex;
-  flex-direction: column;
-  width: 40%; }
 
 /* NAVBAR */
 .navbar-nav {
@@ -306,8 +308,7 @@ header {
 
 .MasVendidos {
   font-family: "Dela Gothic One", cursive;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 40px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -316,12 +317,11 @@ header {
   .MasVendidos iframe {
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 40rem; }
+    height: 30rem; }
   .MasVendidos h1 {
     color: #31cfc2;
     text-align: center; }
@@ -382,3 +382,16 @@ header {
   margin-top: 70px;
   background-color: orange;
   font-family: "Montserrat", sans-serif; }
+
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: black;
+  border: none; }
+
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px; }

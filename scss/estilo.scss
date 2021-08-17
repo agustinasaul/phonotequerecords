@@ -2,6 +2,7 @@
 @import "tipografia";
 @import "house";
 @import "portada";
+@import "mediaq";
 
 @mixin bodydefault {
   background-color: black;
@@ -118,12 +119,6 @@ label {
   display: flex;
   width: 100%;
   justify-content: space-around;
-}
-
-.paso {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
 }
 
 /* NAVBAR */
@@ -251,8 +246,7 @@ header {
 
 .MasVendidos {
   font-family: $fonttitulos;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 40px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -262,12 +256,11 @@ header {
   iframe {
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 40rem;
+    height: 30rem;
   }
   h1 {
     color: $letraturquesa;
@@ -339,4 +332,18 @@ header {
   margin-top: 70px;
   background-color: orange;
   font-family: $fonttextos;
+}
+
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: black;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
 }
