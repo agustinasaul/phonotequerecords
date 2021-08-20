@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-image: url("../imagenes/esesta-01.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    @include bannerdefault;
+    font-size: 3.2rem;
+  }
+  h2 {
+    @include bannerdefault;
+    font-size: 3rem;
+  }
+}

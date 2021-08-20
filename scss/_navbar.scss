@@ -1,0 +1,26 @@
+.navbar-nav {
+  width: 60%;
+  margin-left: 10%;
+
+  li {
+    width: 50%;
+  }
+}
+
+header {
+  font: $fonttextos;
+}
+
+.nav-link {
+  color: $letrablanca !important;
+  font-family: $fonttextos;
+
+  &:hover {
+    color: $letranaranja !important;
+  }
+}
+
+.navbar-brand {
+  color: $letrablanca !important;
+  font-family: $fonttextos;
+}
